@@ -156,9 +156,14 @@ Menu
   margin-left: auto;
   margin-right: auto;
 }
+.categories-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
 .btn-container {
   margin-bottom: 4rem;
-  display: flex;
+  display: inline-block;
   justify-content: center;
 }
 .filter-btn {
