@@ -38,15 +38,32 @@ function App() {
 
   return (
     <main>
-      <section className='menu section'>
-        <div className='title'>
-          <h2>restaurant name</h2>
-          <div className='underline'></div>
+    <section className='menu section'>
+      <div className='header'>
+        <h2>Restaurant Name</h2>
+        <div className='icons'>
+          <div className='icon'>
+          <a href='tel:1234567890'>
+            <span role='img' aria-label='phone'>
+              📞
+            </span>
+            
+            <span className='icon-text'>&thinsp;123-456-7890</span>
+          </a>
+          </div>
+          <div className='icon'>
+            <span role='img' aria-label='location'>
+              📍
+            </span>
+            <span className='icon-text'>&thinsp;Restaurant Location</span>
+          </div>
         </div>
-        <Categories categories={categories} filterItems={filterItems} />
-        <Menu items={filteredItems} /> 
-      </section>
-    </main>
+      </div>
+      <br />
+      <Categories categories={categories} filterItems={filterItems} />
+      <Menu items={filteredItems} />
+    </section>
+  </main>
   );
 }
 
