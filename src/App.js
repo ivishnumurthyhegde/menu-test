@@ -44,7 +44,8 @@ function App() {
     src='https://i.ibb.co/k2nGgfPg/Aramane-donne-biryani-intsta-logo.jpg'
     alt='Restaurant Logo'
     className='restaurant-logo'
-    style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
+    className='restaurant-banner'
+    style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
   />
         <h2>Aramane Donne Biriyani</h2>
         <div className='icons'>
