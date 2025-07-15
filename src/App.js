@@ -40,7 +40,13 @@ function App() {
     <main>
     <section className='menu section'>
       <div className='header'>
-        <h2>Restaurant Name</h2>
+     <img 
+    src='https://instagram.fblr25-1.fna.fbcdn.net/v/t51.2885-19/465076128_3225459697585118_4336247309009200955_n.jpg?stp=dst-jpg_s150x150_tt6&_nc_ht=instagram.fblr25-1.fna.fbcdn.net&_nc_cat=102&_nc_oc=Q6cZ2QHZp2cKVfDfNpB3AtLV2YBTRfmAvF9iagFU9ZH5PLvmDLMORhqWtMZferSmEQDrljU&_nc_ohc=kPBAeMTqQRoQ7kNvwGbPUkQ&_nc_gid=GtLimowc1cEUyvABI3jaxA&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfR3YytvRWWO-bARwq8Gs_g0afcbRKeXklvZjmboHuP6Ow&oe=687BCEE3&_nc_sid=8b3546'
+    alt='Restaurant Logo'
+    className='restaurant-logo'
+    style={{ width: '40px', height: '40px', borderRadius: '50%', marginRight: '10px' }}
+  />
+        <h2>Aramane Donne Biriyani</h2>
         <div className='icons'>
           <div className='icon'>
           <a href='tel:1234567890'>
