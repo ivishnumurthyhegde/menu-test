@@ -232,6 +232,14 @@ Menu
   padding-top: 1rem;
 }
 
+
+.restaurant-banner {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
 @media screen and (min-width: 768px) {
   .menu-item {
     grid-template-columns: 225px 1fr;
