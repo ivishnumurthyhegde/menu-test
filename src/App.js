@@ -40,13 +40,6 @@ function App() {
     <main>
     <section className='menu section'>
       <div className='header'>
-     <img 
-    src='https://i.ibb.co/k2nGgfPg/Aramane-donne-biryani-intsta-logo.jpg'
-    alt='Restaurant Logo'
-    className='restaurant-logo'
-    className='restaurant-banner'
-    style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-  />
         <h2>Aramane Donne Biriyani</h2>
         <div className='icons'>
           <div className='icon'>
