@@ -40,7 +40,7 @@ function App() {
     <main>
     <section className='menu section'>
       <div className='header'>
-        <h2>Aramane Donne Biriyani</h2>
+        <h2>Resturant name</h2>
         <div className='icons'>
           <div className='icon'>
           <a href='tel:1234567890'>
